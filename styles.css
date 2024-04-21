@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #a97b4c
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px 0 40px 0;
+    font-size: 360%;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 200%;
+}
+
+#chocolate-options {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 25px;
+}
+
+#chocolate-options label {
+
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#chocolate-options label:hover {
+    background-color: #f0f0f0;
+}
+
+#chocolate-options input[type="checkbox"] {
+    margin-bottom: 10px;
+}
+
+#custom-pack {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#selected-chocolates {
+    padding: 0;
+}
+
+#selected-chocolates li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+#total-price {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
